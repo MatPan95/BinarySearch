@@ -19,5 +19,3 @@ The `BinarySearch` class provides a generic implementation of binary search for 
   this stuff is worth it, you can buy me a beer in return.
   Mateusz Pankiewicz
   ----------------------------------------------------------------------------
- 
-

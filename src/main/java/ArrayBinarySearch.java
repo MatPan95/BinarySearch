@@ -1,4 +1,4 @@
-public class BinarySearch<T extends Comparable<? super T>> {
+public class ArrayBinarySearch<T extends Comparable<? super T>> {
 
         public int binarySearch(T[] array, T target) {
             int left = 0;

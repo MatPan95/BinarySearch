@@ -7,7 +7,7 @@ public class BinarySearchTest {
 
     @Test
     public void testBinarySearchInt() {
-        BinarySearch<Integer> binarySearch = new BinarySearch<>();
+        ArrayBinarySearch<Integer> binarySearch = new ArrayBinarySearch<>();
         Integer[] sortedArray = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
 
         // Test cases
@@ -20,7 +20,7 @@ public class BinarySearchTest {
 
     @Test
     public void testBinarySearchString() {
-        BinarySearch<String> binarySearch = new BinarySearch<>();
+        ArrayBinarySearch<String> binarySearch = new ArrayBinarySearch<>();
         String[] sortedArray = {"apple", "banana", "cherry", "date", "fig", "grape", "kiwi"};
 
         // Test cases
@@ -34,7 +34,7 @@ public class BinarySearchTest {
 
     @Test
     public void testBinarySearchPerson() {
-        BinarySearch<Person> binarySearch = new BinarySearch<>();
+        ArrayBinarySearch<Person> binarySearch = new ArrayBinarySearch<>();
 
         Person[] sortedArray = {
                 new Person("Alice", 25),
